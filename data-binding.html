@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Data-binding</title>
+</head>
+<body>
+		<div id="app">
+		<input type="text" v-model="text">
+	</div>
+
+	<script>
+		function Vue (options) {
+			this.data = options.data;
+			var data = this.data;
+			observe(data, this);
+			var id = options.el;
+			var dom = nodeToFragment(document.getElementById(id), this);
+			document.getElementById(id).appendChild(dom); 
+		}
+		var vm = new Vue({
+			el: 'app',
+			data: {
+				text: 'hello world'
+			}
+		});
+		function nodeToFragment (node, vm) {
+			var flag = document.createDocumentFragment();
+			var child;
+			
+			while (child = node.firstChild) {
+				compile(child, vm);
+				flag.append(child); 
+			}
+			return flag;
+		}
+		function compile (node, vm) {
+			var reg = /\{\{(.*)\}\}/;
+			if (node.nodeType === 1) {
+				var attr = node.attributes;
+				for (var i = 0; i < attr.length; i++) {
+					if (attr[i].nodeName == 'v-model') {
+						var name = attr[i].nodeValue; 
+						node.addEventListener('input', function (e) {
+							vm[name] = e.target.value;
+						});
+						node.value = vm[name]; 
+						node.removeAttribute('v-model');
+					}
+				};
+			}
+			if (node.nodeType === 3) {
+				if (reg.test(node.nodeValue)) {
+					var name = RegExp.$1; 
+					name = name.trim();
+					new Watcher(vm, node, name);		
+				}
+			}
+		}
+	</script>
+
+</body>
+</html>
