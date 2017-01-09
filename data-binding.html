@@ -9,7 +9,7 @@
 		<input type="text" v-model="text">
 	</div>
 
-	<script>
+<script>
 		function Vue (options) {
 			this.data = options.data;
 			var data = this.data;
@@ -57,7 +57,24 @@
 				}
 			}
 		}
-	</script>
+		function defineReactive(obj,key,val){
+			Object.definePropertype(obj,key,{
+				get:function(){
+					if(Dep.target) dep.addSub(Dep.target);
+					return val;
+				},
+				set:function(newVal){
+					if(newVal==val) return;
+					val=newVal;
+				}
+			})
+		}
+		function observe(obj, vm){
+           		Object.keys(obj).forEach(function(key){
+               			defineReactive(vm, key, obj[key]);
+           		})
+       		}
+</script>
 
 </body>
 </html>
