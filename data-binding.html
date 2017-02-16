@@ -10,20 +10,6 @@
 	</div>
 
 <script>
-		function Vue (options) {
-			this.data = options.data;
-			var data = this.data;
-			observe(data, this);
-			var id = options.el;
-			var dom = nodeToFragment(document.getElementById(id), this);
-			document.getElementById(id).appendChild(dom); 
-		}
-		var vm = new Vue({
-			el: 'app',
-			data: {
-				text: 'hello world'
-			}
-		});
 		function nodeToFragment (node, vm) {
 			var flag = document.createDocumentFragment();
 			var child;
@@ -111,6 +97,20 @@
 				});
 			}
 		};
+		function Vue (options) {
+			this.data = options.data;
+			var data = this.data;
+			observe(data, this);
+			var id = options.el;
+			var dom = nodeToFragment(document.getElementById(id), this);
+			document.getElementById(id).appendChild(dom); 
+		}
+		var vm = new Vue({
+			el: 'app',
+			data: {
+				text: 'hello world'
+			}
+		});
 </script>
 
 </body>
