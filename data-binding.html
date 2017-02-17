@@ -44,7 +44,7 @@
 			}
 		}
 		function defineReactive(obj,key,val){
-			Object.definePropertype(obj,key,{
+			Object.defineProperty(obj,key,{
 				get:function(){
 					if(Dep.target) dep.addSub(Dep.target);
 					return val;
