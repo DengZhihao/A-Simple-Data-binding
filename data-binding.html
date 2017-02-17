@@ -5,9 +5,9 @@
 	<title>Data-binding</title>
 </head>
 <body>
-		<div id="app">
-		<input type="text" v-model="text">
-	</div>
+<div id="app">
+		<input type="text" v-model="text">{{ text }}
+</div>
 
 <script>
 		function nodeToFragment (node, vm) {
@@ -37,13 +37,14 @@
 			}
 			if (node.nodeType === 3) {
 				if (reg.test(node.nodeValue)) {
-					var name = RegExp.$1; 
+					var name = RegExp.$1;
 					name = name.trim();
-					new Watcher(vm, node, name);		
+					new Watcher(vm, node, name,'text');		
 				}
 			}
 		}
 		function defineReactive(obj,key,val){
+			var dep=new Dep();
 			Object.defineProperty(obj,key,{
 				get:function(){
 					if(Dep.target) dep.addSub(Dep.target);
@@ -52,6 +53,7 @@
 				set:function(newVal){
 					if(newVal==val) return;
 					val=newVal;
+					dep.notify();
 				}
 			})
 		}
@@ -112,6 +114,5 @@
 			}
 		});
 </script>
-
 </body>
 </html>
