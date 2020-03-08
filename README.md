@@ -39,6 +39,7 @@
 
 [装饰器模式 Decorative Pattern](https://github.com/DengZhihao/What-I-Learned/blob/master/Articles/Decorative.md)
 
+[单例模式 Singleton Pattern](https://github.com/DengZhihao/What-I-Learned/blob/master/Articles/Singleton.md)
 ## 框架类专题
 [简单实现Vue的数据绑定 A simple interpretation of how Vue.js realizes two-way data-binding.](https://github.com/DengZhihao/What-I-Learned/blob/master/Articles/data-binding.md)
 ## ES6专题
