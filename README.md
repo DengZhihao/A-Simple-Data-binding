@@ -1,5 +1,6 @@
 # Javascript-Practice
-##### 我希望自己在使用一个框架或者函数的时候知其然也知其所以然，在这里保存一些我用JavaScript编写的demo。I want to know how and why when using a framework or function. Save some demos I wrote by javascript here.
+##### 我希望自己在使用一个框架或者函数的时候知其然也知其所以然，在这里保存一些我用JavaScript编写的demo。
+##### I want to know how and why when using a framework or function. Save some demos I wrote by javascript here.
 <br>
 ### Javascript专题
 ***
