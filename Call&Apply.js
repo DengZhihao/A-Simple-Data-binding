@@ -10,7 +10,7 @@ Function.prototype.call2=function(context){
   
 	delete context.fn;
 	return result;
-}
+} // ES3写法
 
 Function.prototype.apply2 = function (context, arr) {
     var context = Object(context) || window;
