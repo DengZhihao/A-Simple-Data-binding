@@ -12,6 +12,16 @@ Function.prototype.call2=function(context){
 	return result;
 } // ES3写法
 
+Function.prototype.call3 = function (context,...args) {
+    var obj = context || window;
+    obj.fn = this;
+
+    var result = obj.fn(args);
+
+    delete obj.fn
+    return result;
+} // ES6写法
+
 Function.prototype.apply2 = function (context, arr) {
     var context = Object(context) || window;
     context.fn = this;
