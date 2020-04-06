@@ -3,7 +3,7 @@ Function.prototype.call2=function(context){
 	context.fn = this;
   
 	var args = [];
-	for(var i = 1,len = arguments.length;i<len;i++){
+	for(var i = 1;i < arguments.length;i++){
 		args.push('arguments[' + i + ']');
 	} 
 	var result = eval('context.fn(' + args + ')');
