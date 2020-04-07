@@ -3,6 +3,7 @@
 #### I want to know how and why when using a framework or function. Save some demos I wrote by javascript here.
 ## Javascript专题
 [模拟call和aplly方法 Simulation call and apply method.](https://github.com/DengZhihao/Javascript-learning/blob/master/Call%26Apply.js)
+
 [模拟bind方法 Simulation bind method.](https://github.com/DengZhihao/Javascript-learning/blob/master/Bind.js)
 ## Underscore&Lodash专题
 ## 框架类专题
