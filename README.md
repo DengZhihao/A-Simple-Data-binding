@@ -8,9 +8,9 @@
 
 [模拟new方法 Simulation new method.](https://github.com/DengZhihao/Javascript-learning/blob/master/New.js)
 
-[深浅拷贝Copy.](https://github.com/DengZhihao/Javascript-learning/blob/master/Copy.js)
+[深浅拷贝 Copy.](https://github.com/DengZhihao/Javascript-learning/blob/master/Copy.js)
 
-[防抖和节流.](https://github.com/DengZhihao/Javascript-learning/blob/master/Debounce&Throttle.js)
+[防抖和节流 Debounce and throttle.](https://github.com/DengZhihao/Javascript-learning/blob/master/Debounce&Throttle.js)
 ## Underscore&Lodash专题
 ## 框架类专题
 [简单实现Vue的数据绑定 A simple interpretation of how Vue.js realizes two-way data-binding.](https://github.com/DengZhihao/Javascript-Practice/blob/master/data-binding.html)
