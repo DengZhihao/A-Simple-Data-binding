@@ -17,3 +17,4 @@
 ## 框架类专题
 [简单实现Vue的数据绑定 A simple interpretation of how Vue.js realizes two-way data-binding.](https://github.com/DengZhihao/Javascript-Practice/blob/master/data-binding.html)
 ## Webpack类专题
+[Babel是怎么编译class的.](https://github.com/DengZhihao/Javascript-learning/blob/master/Class.js)
