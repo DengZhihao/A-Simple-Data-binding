@@ -1,3 +1,11 @@
+function debounce1(func,time){ //基本版
+	var timeout;
+	return function{
+		clearTimeout(timeout);
+		timeout = setTimeout(func, time);
+	}
+}
+
 function debounce(func,time，immediate){
 	var timeout, result;
 	return function(){
