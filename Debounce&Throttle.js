@@ -1,8 +1,35 @@
 function debounce1(func,time){ //基本版
 	var timeout;
-	return function{
+	return function (){
 		clearTimeout(timeout);
 		timeout = setTimeout(func, time);
+	}
+}
+
+function debounce2(func,time){ //修复this问题
+	var timeout;
+	return function (){
+		var context = this;
+		clearTimeout(timeout);
+		timeout = setTimeout(
+			function(){
+				func.apply(context);
+			}, time
+		)
+	}
+}
+
+function debounce3(func,time){ //修复鼠标事件问题
+	var timeout;
+	return function (){
+		var context = this;
+		var args = arguments;
+		clearTimeout(timeout);
+		timeout = setTimeout(
+			function(){
+				func.apply(context,args);
+			}, time
+		)
 	}
 }
 
