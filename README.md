@@ -30,6 +30,7 @@
 
 [JS树相关算法](https://github.com/DengZhihao/What-I-Learned/blob/master/Articles/Tree.md)
 
+[JS实现各种排序](https://github.com/DengZhihao/What-I-Learned/blob/master/Articles/Sort.md)
 ## Javascript设计模式实现
 [发布订阅模式 Publish-subscribe model](https://github.com/DengZhihao/What-I-Learned/blob/master/Articles/Notify.md)
 
