@@ -13,8 +13,15 @@
 [防抖和节流 Debounce and throttle.](https://github.com/DengZhihao/Javascript-learning/blob/master/Debounce&Throttle.js)
 
 [数组去重 Array deduplication.](https://github.com/DengZhihao/Javascript-learning/blob/master/Array-deduplication.js)
+[数组扁平化 Array flatten.](https://github.com/DengZhihao/Javascript-learning/blob/master/Array-flatten.js)
+[发布订阅模式](https://github.com/DengZhihao/Javascript-learning/blob/master/Observer.js)
+[模拟Promise Simulation promise.](https://github.com/DengZhihao/Javascript-learning/blob/master/Promise.js)
 ## Underscore&Lodash专题
 ## 框架类专题
 [简单实现Vue的数据绑定 A simple interpretation of how Vue.js realizes two-way data-binding.](https://github.com/DengZhihao/Javascript-Practice/blob/master/data-binding.html)
 ## Webpack类专题
+[Babel是怎么编译let/const的 How does babel compile the class.](https://github.com/DengZhihao/Javascript-learning/blob/master/Let&Const.js)
 [Babel是怎么编译class的 How does babel compile the class.](https://github.com/DengZhihao/Javascript-learning/blob/master/Class.js)
+## Node.js类专题
+[Node实现多线程 Node implements multithreading](https://github.com/DengZhihao/Javascript-learning/blob/master/Multithreading.js)
+[Node实现Websocket Node implements Websocket](https://github.com/DengZhihao/Javascript-learning/blob/master/Websocket.js)
