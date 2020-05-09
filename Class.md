@@ -1,6 +1,6 @@
 ES6的class写法总的来说更像是一种语法糖，他做到的ES5也都可以做到。只是这种写法让面向对象的写法更加清晰了。
 
-#####Constructor
+#### Constructor
 ----
 ```js
 class Person { //ES6标准class
