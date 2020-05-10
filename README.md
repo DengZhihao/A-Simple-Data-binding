@@ -27,7 +27,7 @@
 [JS树相关算法](https://github.com/DengZhihao/Javascript-learning/blob/master/Tree.js)
 
 ## Javascript设计模式实现
-[发布订阅模式](https://github.com/DengZhihao/Javascript-learning/blob/master/Observer.js)
+[发布订阅模式](https://github.com/DengZhihao/Javascript-learning/blob/master/Notify.js)
 
 ## 框架类专题
 [简单实现Vue的数据绑定 A simple interpretation of how Vue.js realizes two-way data-binding.](https://github.com/DengZhihao/Javascript-Practice/blob/master/data-binding.html)
