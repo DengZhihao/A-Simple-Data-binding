@@ -19,6 +19,7 @@
 
 [数组扁平化 Array flatten.](https://github.com/DengZhihao/Javascript-learning/blob/master/Array-flatten.js)
 
+## Javascript常见算法和数据结构实现
 ## Javascript设计模式实现
 [发布订阅模式](https://github.com/DengZhihao/Javascript-learning/blob/master/Observer.js)
 
