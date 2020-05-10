@@ -20,11 +20,11 @@
 [数组扁平化 Array flatten.](https://github.com/DengZhihao/Javascript-learning/blob/master/Array-flatten.js)
 
 ## Javascript常见算法和数据结构实现
-[JS实现栈和队列](https://github.com/DengZhihao/Javascript-learning/blob/master/Stack&Queue.js)
+[JS实现栈和队列](https://github.com/DengZhihao/Javascript-learning/blob/master/Stack&Queue.md)
 
-[JS实现链表](https://github.com/DengZhihao/Javascript-learning/blob/master/Linked-list.js)
+[JS实现链表](https://github.com/DengZhihao/Javascript-learning/blob/master/Linked-list.md)
 
-[JS树相关算法](https://github.com/DengZhihao/Javascript-learning/blob/master/Tree.js)
+[JS树相关算法](https://github.com/DengZhihao/Javascript-learning/blob/master/Tree.md)
 
 ## Javascript设计模式实现
 [发布订阅模式](https://github.com/DengZhihao/Javascript-learning/blob/master/Notify.js)
