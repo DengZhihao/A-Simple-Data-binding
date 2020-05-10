@@ -36,8 +36,8 @@
 
 [Babel是怎么编译class的 How does babel compile the class.](https://github.com/DengZhihao/Javascript-learning/blob/master/Class.js)
 ## Node.js类专题
-[Node实现多线程 Node implements multithreading](https://github.com/DengZhihao/Javascript-learning/blob/master/Multithreading.js)
+[Node实现多线程 Node implements multithreading](https://github.com/DengZhihao/Javascript-learning/blob/master/Multithreading.md)
 
-[Node实现Websocket Node implements Websocket](https://github.com/DengZhihao/Javascript-learning/blob/master/Websocket.js)
+[Node实现Websocket Node implements Websocket](https://github.com/DengZhihao/Javascript-learning/blob/master/Websocket.md)
 ## 浏览器专题
 ## Underscore&Lodash专题
