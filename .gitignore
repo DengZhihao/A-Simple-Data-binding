@@ -1,1 +1,4 @@
 *.DS_store
+.gitignore
+*.xml
+*.iml
