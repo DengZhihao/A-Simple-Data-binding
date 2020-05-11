@@ -1,3 +1,4 @@
+```js
 Function.prototype.call2=function(context){
 	var context = context || window;
 	context.fn = this;
@@ -41,3 +42,4 @@ Function.prototype.apply2 = function (context, arr) {
     delete context.fn
     return result;
 }
+```

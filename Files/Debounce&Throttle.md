@@ -1,3 +1,4 @@
+```js
 function debounce1(func,time){ //基本版
 	var timeout;
 	return function (){
@@ -71,3 +72,4 @@ function throttle(func,time){
 		}
 	}
 }
+```

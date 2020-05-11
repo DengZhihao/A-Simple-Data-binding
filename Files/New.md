@@ -1,3 +1,4 @@
+```js
 function newObj () {
 	var obj = new Object();  // 创建新对象
 	
@@ -9,4 +10,4 @@ function newObj () {
 	
 	return typeof res === 'Object' ? res : obj; // 判断如果返回对象只需返回res即可
 }
- 
+```

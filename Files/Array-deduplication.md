@@ -1,4 +1,4 @@
-```js```
+```js
 function deduplication(arr){
 	var res = [];
 	for(var i = 0;i < arr.length;i++){
@@ -22,4 +22,4 @@ function deduplication(arr){
 }
 
 var res = (arr) => [...new Set(arr)] //ES6
-``````
+```

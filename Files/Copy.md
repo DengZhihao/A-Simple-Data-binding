@@ -1,3 +1,4 @@
+```js
 var shallowCopy = function(obj){
 	if(typeof obj !== 'object') return;
 	var newObj = obj instanceof Array ? [] : {};
@@ -19,3 +20,4 @@ var deepCopy = function(){
 	}
 	retuen newObj;
 }
+```
