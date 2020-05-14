@@ -1,6 +1,10 @@
 # What I Learned
 #### 我希望自己在使用一个框架或者函数的时候知其然也知其所以然，在这里保存一些我用JavaScript编写的demo。
 #### I want to know how and why when using a framework or function. Save some demos I wrote by javascript here.
+
+## Javascript常见函数实现
+[浮点数精度](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Precision.md)
+
 ## Javascript原生方法模拟
 [模拟call和aplly方法 Simulation call and apply method.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Call%26Apply.md)
 
