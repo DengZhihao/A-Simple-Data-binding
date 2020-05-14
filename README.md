@@ -32,9 +32,14 @@
 ## 框架类专题
 [简单实现Vue的数据绑定 A simple interpretation of how Vue.js realizes two-way data-binding.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/data-binding.md)
 ## ES6专题
-[Babel是怎么编译let/const的 How does babel compile the class.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Let&Const.md)
+[Babel是怎么编译let/const的 How does babel compile the let and const.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Let&Const.md)
 
 [Babel是怎么编译class的 How does babel compile the class.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Class.md)
+
+[Babel是怎么编译Generator的 How does babel compile the Generator.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Generator.md)
+
+[Babel是怎么编译Async的 How does babel compile the Async.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Async.md)
+
 ## Node.js类专题
 [Node实现多线程 Node implements multithreading](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Multithreading.md)
 

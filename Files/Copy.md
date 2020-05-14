@@ -1,3 +1,4 @@
+###浅拷贝
 ```js
 var shallowCopy = function(obj){
 	if(typeof obj !== 'object') return;
@@ -9,7 +10,9 @@ var shallowCopy = function(obj){
 	}
 	retuen newObj;
 }
-
+```
+###深拷贝
+```js
 var deepCopy = function(){
 	if(typeof obj !== 'object') return;
 	var newObj = obj instanceof Array ? [] : {};
