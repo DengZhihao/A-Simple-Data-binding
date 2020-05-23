@@ -3,7 +3,7 @@
 #### I want to know how and why when using a framework or function. Save some demos I wrote by javascript here.
 
 ## Javascript常见函数实现
-[浮点数精度](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Precision.md)
+[浮点数精度 Floating point precision.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Precision.md)
 
 ## Javascript原生方法模拟
 [模拟call和aplly方法 Simulation call and apply method.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Call%26Apply.md)
@@ -31,7 +31,7 @@
 [JS树相关算法](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Tree.md)
 
 ## Javascript设计模式实现
-[发布订阅模式](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Notify.md)
+[发布订阅模式 Publish-subscribe model](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Notify.md)
 
 ## 框架类专题
 [简单实现Vue的数据绑定 A simple interpretation of how Vue.js realizes two-way data-binding.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/data-binding.md)
