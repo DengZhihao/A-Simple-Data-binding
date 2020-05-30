@@ -1,4 +1,4 @@
-###数组去重
+### 数组去重
 最经典的也是兼容性最好的办法那一定是用两个for循环嵌套。
 ```js
 function deduplication(arr){
