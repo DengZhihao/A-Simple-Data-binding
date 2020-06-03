@@ -1,5 +1,5 @@
 ### 数组去重
-最经典的也是兼容性最好的办法那一定是用两个for循环嵌套。
+最经典的也是兼容性最好的办法那一定是用两个for循环嵌套,当arr[i]和res[j]的值相等时跳出循环。
 ```js
 function deduplication(arr){
 	var res = [];

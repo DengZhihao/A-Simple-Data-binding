@@ -32,6 +32,8 @@
 
 ## Javascript设计模式实现
 [发布订阅模式 Publish-subscribe model](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Notify.md)
+[代理模式 Proxy Pattern](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Proxy.md)
+[装饰器模式 Decorative Pattern](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Decorative.md)
 
 ## 框架类专题
 [简单实现Vue的数据绑定 A simple interpretation of how Vue.js realizes two-way data-binding.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/data-binding.md)
