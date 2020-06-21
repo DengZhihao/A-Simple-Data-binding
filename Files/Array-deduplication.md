@@ -10,13 +10,13 @@ function deduplication(arr){
 			}
 		}
 		if(j === res.length){
-		   res.push(arr[i]);
+		    res.push(arr[i]);
 		}
 	}
 	return res;
 } //Regular
 ```
-ES5提供了filter方法，利用indexOf()通过index就可以快速识别去重。
+ES5提供了filter方法，利用indexOf()通过index就可以快速识别是否为首次出现并去重。
 ```js
 var res = arr.filter((index, item, array) => array.indexOf(item) === index) //ES5
 
