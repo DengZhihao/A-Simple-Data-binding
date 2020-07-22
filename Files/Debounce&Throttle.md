@@ -1,3 +1,4 @@
+###防抖和节流
 ```js
 function debounce1(func,time){ //基本版
 	var timeout;

@@ -1,3 +1,4 @@
+###模拟new()方法实现
 ```js
 function newObj () {
 	var obj = new Object();  // 创建新对象

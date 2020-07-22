@@ -1,3 +1,4 @@
+###模拟Vue的数据绑定
 ```XML
 <!DOCTYPE html>
 <html lang="en">

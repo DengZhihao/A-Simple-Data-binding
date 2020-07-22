@@ -2,7 +2,7 @@
 #### 我希望自己在使用一个框架或者函数的时候知其然也知其所以然，在这里保存一些我用JavaScript编写的demo。
 #### I want to know how and why when using a framework or function. Save some demos I wrote by javascript here.
 
-## Javascript常见函数实现
+## Javascript原理深入
 [浮点数精度 Floating point precision.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Precision.md)
 
 ## Javascript原生方法模拟
@@ -32,7 +32,9 @@
 
 ## Javascript设计模式实现
 [发布订阅模式 Publish-subscribe model](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Notify.md)
+
 [代理模式 Proxy Pattern](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Proxy.md)
+
 [装饰器模式 Decorative Pattern](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Decorative.md)
 
 ## 框架类专题
@@ -47,8 +49,8 @@
 [Babel是怎么编译Async的 How does babel compile the Async.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Async.md)
 
 ## Node.js类专题
-[Node实现多线程 Node implements multithreading](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Multithreading.md)
+[Node实现多线程 Node implements multithreading.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Multithreading.md)
 
-[Node实现Websocket Node implements Websocket](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Websocket.md)
+[Node实现Websocket Node implements Websocket.](https://github.com/DengZhihao/What-I-Learned/blob/master/Files/Websocket.md)
 ## 浏览器专题
 ## Underscore&Lodash专题
