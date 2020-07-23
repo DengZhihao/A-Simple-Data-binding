@@ -11,7 +11,7 @@ var shallowCopy = function(obj){
 	retuen newObj;
 }
 ```
-###深拷贝
+### 深拷贝
 ```js
 var deepCopy = function(){
 	if(typeof obj !== 'object') return;
