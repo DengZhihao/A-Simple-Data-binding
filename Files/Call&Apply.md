@@ -1,4 +1,4 @@
-###模拟call/apply
+### 模拟call/apply
 ```js
 Function.prototype.call2=function(context){
 	var context = context || window;

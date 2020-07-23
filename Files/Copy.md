@@ -1,4 +1,4 @@
-###浅拷贝
+### 浅拷贝
 ```js
 var shallowCopy = function(obj){
 	if(typeof obj !== 'object') return;

@@ -1,4 +1,4 @@
-###模拟bind方法
+### 模拟bind方法
 ```js
 // The difference between call() and bind() is that the call() sets the this keyword and
 // executes the function immediately and it does not create a new copy of the function,

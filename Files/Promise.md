@@ -1,1 +1,1 @@
-###Promise方法模拟
+### Promise方法模拟
