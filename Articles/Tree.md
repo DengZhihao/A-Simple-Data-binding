@@ -20,3 +20,22 @@ function levelOrder(node) {
     return result;
 }
 ```
+###反转二叉树
+
+###求二叉树深度
+
+```js
+function maxDepth(node, depth = 0) {
+    if(!node){return depth}
+    return Math.max(maxDepth(node.left, depth + 1),maxDepth(node.right, depth + 1))
+}
+```
+
+###反转二叉树
+```js
+var invertTree = function(root) {
+    if(!root) return root;
+    [root.left, root.right] = [invertTree(root.right), invertTree(root.left)];
+    return root;
+};
+```

@@ -1,5 +1,6 @@
 发布订阅模式
 ----
+场景：事件委托
 ```js
 const eventEmmiter = {}
 
