@@ -17,13 +17,13 @@ var shallowCopy = function(obj){
 ```js
 var deepCopy = function(obj){
 	if(typeof obj !== 'object') return obj;
-	var newObj = obj instanceof Array ? [] : {};
+	var cloneObj = obj instanceof Array ? [] : {};
 	for(var i in obj){
 		if(obj.hasOwnPrototype(i)){
-			newObj[i] = typeof newObj[i] === 'object' ? deepCopy(obj[i]) : obj[i];
+			cloneObj[i] = typeof cloneObj[i] === 'object' ? deepCopy(obj[i]) : obj[i];
 		}
 	}
-	return newObj;
+	return cloneObj;
 }
 ```
 ### 完整的深拷贝
