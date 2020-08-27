@@ -1,7 +1,8 @@
 防抖和节流
 ----
 ### 防抖
-防抖简单来说就是要等触发完事件 n 秒内不再触发事件，n秒后执行。我们先看一下大概的使用场景:
+防抖简单来说就是要等触发完事件一段时间内不再触发事件，之后执行。比如在验证登录名是否重复时就可以使用防抖。
+我们先看一下大概的使用场景:
 ```js
 var count = 1;
 var container = document.getElementById('container');
@@ -37,6 +38,7 @@ function debounce2(func, time){ //修复this问题
 	}
 }
 ```
+JavaScript 在事件处理函数中会提供事件对象 event，以参数形式传入，而我们现在的代码是没办法捕获到参数的。
 ```js
 function debounce3(func, time){ //修复事件对象问题
 	var timeout;
@@ -53,7 +55,7 @@ function debounce3(func, time){ //修复事件对象问题
 }
 ```
 ```js
-function debounce(func, time，immediate){
+function debounce(func, time, immediate){
 	var timeout, result;
 	return function(){
 		var context = this;
@@ -74,9 +76,25 @@ function debounce(func, time，immediate){
 		return result;
 	}
 }
-
 ```
 ### 节流
+节流的原理很简单：如果你持续触发事件，每隔一段时间，只执行一次事件。比如图片懒加载。
+```js
+function throttle(func,time){
+    var timeout;
+    return function (){
+        if(!timeout){
+            timeout = setTimeout(
+                function(){
+                    timeout = null;
+                    func();
+                },time
+            )
+        }
+    }
+}
+```
+类似防抖的，修复this和参数问题：
 ```js
 function throttle(func,time){
 	var timeout;
