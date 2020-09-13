@@ -21,8 +21,8 @@ Function.prototype.call2=function(context){
 ES6通过rest省去了处理arguments和eval：
 ```js
 Function.prototype.call3 = function (context,...args) {
-    var obj = context || window;
-    obj.fn = this;
+    var obj = context || window; //获取context
+    obj.fn = this; //
 
     var result = obj.fn(args);
 
